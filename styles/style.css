@@ -2,15 +2,6 @@ body {
   font-family: 'Archivo Narrow', sans-serif;
 }
 
-.material-icons {
-
-}
-
-.hidden {
-  display: none;
-  transition: 2s;
-}
-
 .logo {
   width: 90%;
   margin-left: auto;
@@ -64,13 +55,13 @@ body {
 }
 
 form {
-  border: solid 1px;
+  background-image: url("images/symphony.png  ");
   border-radius: 10px;
   padding: 10px;
   text-align: center;
   margin-bottom: 20px;
   background-color: #7074db;
-  background-image: url("images/symphony.png  ");
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 .mdl-textfield {
@@ -94,6 +85,10 @@ form {
 .about-page-content {
   background-color: #303030;
   padding: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 .about-page-content h2 {
@@ -109,4 +104,30 @@ form {
   width: 45%;
   float: right;
   margin: 5px;
+}
+
+.icon img {
+  margin: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  transition: .4s;
+}
+
+.icon img:hover {
+  -webkit-box-shadow: 0 12px 18px -6px black;
+     -moz-box-shadow: 0 12px 18px -6px black;
+          box-shadow: 0 12px 18px -6px black;
+}
+
+.icon a {
+  font-size: 12px;
+  display: block;
+}
+
+
+.connect-page-content {
+  background-image: url("images/symphony.png  ");
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
