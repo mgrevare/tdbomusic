@@ -1,0 +1,112 @@
+body {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.material-icons {
+
+}
+
+.hidden {
+  display: none;
+  transition: 2s;
+}
+
+.logo {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.mdl-layout-title {
+  color: white;
+  font-size: 55px;
+  padding: 10px;
+}
+
+.mdl-navigation__link {
+  text-align: center;
+}
+
+.mdl-layout__drawer {
+  background-color: #303030;
+  border-right: none;
+}
+
+.landing-title {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.first-section {
+  background-image: url("images/comingsoon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.song {
+  margin-bottom: 25px;
+}
+
+.demo-card-square {
+  width: 100%;
+}
+
+.sign-up {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+form {
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #7074db;
+  background-image: url("images/symphony.png  ");
+}
+
+.mdl-textfield {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.second-section {
+  background-color: #092668;
+}
+.call-to-action-content h1 {
+  color: white;
+  text-align: center;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
+  background-color: red;
+}
+
+.about-page-content {
+  background-color: #303030;
+  padding: 10px;
+}
+
+.about-page-content h2 {
+  color: white;
+}
+
+.about-page-content p {
+  color: #656A75;
+  font-size: 18px;
+}
+
+.about-image {
+  width: 45%;
+  float: right;
+  margin: 5px;
+}
