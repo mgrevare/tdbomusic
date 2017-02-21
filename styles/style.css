@@ -26,6 +26,7 @@ body {
 .mdl-layout__drawer {
   background-color: #303030;
   border-right: none;
+  opacity: .99;
 }
 
 .landing-title {
@@ -34,7 +35,6 @@ body {
 }
 
 .first-section {
-  background-image: url("images/comingsoon.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
@@ -55,12 +55,12 @@ body {
 }
 
 form {
-  background-image: url("images/symphony.png  ");
+  opacity: 1;
   border-radius: 10px;
+  background-color: white;
   padding: 10px;
   text-align: center;
   margin-bottom: 20px;
-  background-color: #7074db;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -74,12 +74,15 @@ form p {
   display: block;
 }
 
-main {
-  background-color: #092668;
+body {
+  background-image: url("images/comingsoon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .second-section  {
-  background-color: #092668;
+  background-color: #092567;
+  opacity: .9;
 }
 .call-to-action-content h1 {
   color: white;
@@ -119,6 +122,7 @@ main {
   margin-top: 10px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   transition: .4s;
+  width: 120px;
 }
 
 .icon img:hover {
@@ -134,7 +138,7 @@ main {
 
 
 .connect-page-content {
-  background-image: url("images/symphony.png  ");
+  background-image: url("images/symphony.png ");
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
