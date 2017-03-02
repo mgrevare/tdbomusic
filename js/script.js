@@ -1,24 +1,24 @@
-$( ".about-page-content, .music-page-content, .connect-page-content" ).hide();
+// $( ".about-page-content, .music-page-content, .connect-page-content" ).hide();
 
 
 function handleAboutClick() {
   $(".js-about").click(function(){
-    $(".home-page-content, .connect-page-content").hide()
-    $(".about-page-content").fadeIn("fast");
+    $(".home-page-content, .connect-page-content").addClass("hidden");
+    $(".about-page-content").removeClass("hidden");
   });
 };
 
 function handleHomeClick() {
   $(".js-home").click(function(){
-    $(".connect-page-content, .about-page-content").hide();
-    $(".home-page-content").fadeIn("fast");
+    $(".connect-page-content, .about-page-content").addClass("hidden");
+    $(".home-page-content").removeClass("hidden");
 });
 };
 
 function handleConnectClick() {
   $(".js-connect").click(function(){
-    $(".home-page-content, .about-page-content").hide();
-    $(".connect-page-content").fadeIn("fast");
+    $(".home-page-content, .about-page-content").addClass("hidden");
+    $(".connect-page-content").removeClass("hidden");
   });
 };
 
