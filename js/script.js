@@ -10,7 +10,7 @@ function handleAboutClick() {
 
 function handleHomeClick() {
   $(".js-home").click(function(){
-    $(".about-page-content, .connect-page-content").hide();
+    $(".connect-page-content, .about-page-content").hide();
     $(".home-page-content").fadeIn("fast");
 });
 };
