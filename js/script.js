@@ -12,6 +12,7 @@ function handleHomeClick() {
   $(".js-home").click(function(){
     $(".connect-page-content, .about-page-content").addClass("hidden");
     $(".home-page-content").removeClass("hidden");
+    $(".mdl-layout__drawer").removeClass("is-visibe").attr("aria", "true");
 });
 };
 
