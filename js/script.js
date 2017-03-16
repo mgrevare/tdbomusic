@@ -2,7 +2,7 @@ $(function(){
 
 function handleAboutClick() {
   $(".js-about").click(function(){
-    $(".home-page-content, .connect-page-content, music-page-content").addClass("hidden");
+    $(".home-page-content, .connect-page-content, .music-page-content").addClass("hidden");
     $(".about-page-content").removeClass("hidden");
   });
 };
